@@ -1,8 +1,8 @@
 # Elementor Page Templater
 
 
-**Contributors:** [WPDevHQ] (http://www.wpdevhq.com) 
-**Tags:** elementor, pagebuilder, actions, storefront, twentysixteen, genesis 
+**Contributors:** [WPDevHQ] (http://www.wpdevhq.com)   
+**Tags:** elementor, pagebuilder, actions, storefront, twentysixteen, genesis   
 **Requires at least:** 4.4  
 **Tested up to:** 4.6  
 **Stable tag:** 1.0.1  
