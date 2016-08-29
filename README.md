@@ -54,9 +54,11 @@ to accommodate you.
 Yes. This plugin acts as a helper or go between the Elementor Page builder and your current theme (including child themes) by facilitating the missing true full width templates.
 
 **Will the templates work with any theme?**
+
 Yes and No. The short answer is yes, you will be able to select the included templates. However, not all themes are supported in terms of the required styling and you may therefore need to add some custom css for your desired theme.
 
 **Why a blank template?**
+
 Ever wanted to build Landing pages, sales pages or display specific pages without the clutter and distruction of header items, sidebar widgets and footer items? Now you can.
 
 ## Changelog ##
