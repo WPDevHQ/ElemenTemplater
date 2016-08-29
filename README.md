@@ -1,4 +1,4 @@
-# Elementor Page Templater ===
+# Elementor Page Templater
 **Contributors:** [WPDevHQ] (http://www.wpdevhq.com)
 **Tags:** elementor, pagebuilder, actions, storefront, twentysixteen, genesis
 **Requires at least:** 4.4
