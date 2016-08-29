@@ -1,13 +1,23 @@
 <?php
     /* Support for the Twenty Fifteen theme */
     $style = '
-	    .page-template-builder-fullwidth-std .site {
+	    body.page-template-builder-fullwidth:before {
+		    display: none;
+	    }
+		.page-template-builder-fullwidth .site,
+		.page-template-builder-fullwidth-std .site	{
             max-width: 100%;
-			overflow: hidden;
-        }		
+			margin: 0;
+        }
+        .page-template-builder-fullwidth .elementor	{
+            overflow: hidden;
+        }
+        body.page-template-builder-fullwidth-std:before {
+		    width: 29.4118%;
+	    }		
 		.page-template-builder-fullwidth-std .site-footer {
-            width: 70%;
-			margin-left: 30%;
+            width: 71%;
+			margin-left: 29%;
         }
 	';
 	wp_add_inline_style( 'twentyfifteen-style', $style );
