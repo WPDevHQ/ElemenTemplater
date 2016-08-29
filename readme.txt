@@ -7,9 +7,6 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Copyright WPDevHQ
-http://www.wpdevhq.com
-
 A helper plugin for users of [Elementor Pagebuilder] (https://wordpress.org/plugins/elementor/)
 
 == Description ==
@@ -67,3 +64,5 @@ Ever wanted to build Landing pages, sales pages or display specific pages withou
 
 = 1.0.0 =
 * Initial release.
+
+Copyright: WPDevHQ http://www.wpdevhq.com
