@@ -1,6 +1,6 @@
 === Elementor Page Templater ===
 Contributors: WPDevHQ
-Tags: elementor, pagebuilder, actions, storefront, twentysixteen, genesis
+Tags: elementor, pagebuilder, page builder, page builder template, page builder templates, actions, storefront, twentysixteen, genesis, template builder, builder templates
 Requires at least: 4.0
 Tested up to: 4.6
 Stable tag: 1.0.1
@@ -10,16 +10,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Copyright WPDevHQ
 http://www.wpdevhq.com
 
-A helper plugin for users of [Elementor Pagebuilder] (https://github.com/pojome/elementor)
+A helper plugin for users of [Elementor Pagebuilder] (https://wordpress.org/plugins/elementor/)
 
-** Description **
+== Description ==
 This plugin does one and one thing only - adds page templates (plus css) to any theme for use with the Elementor Page Builder
 
 Initial version only contains 2 templates
 - Template 1: Full width with header and footer : Builder Fullwidth Standard
 - Template 2: Full width and no header or footer : Builder Fullwidth Blank
 	
-** Supported Themes **
+== Supported Themes ==
 The following themes are currently supported out of the box - if your desired theme is not list you may need to add some custom css.
 - [Actions] (https://wordpress.org/themes/actions/) - by WPDevHQ
 - [Edge] (https://wordpress.org/themes/edge/) - By themefreesia
@@ -38,7 +38,7 @@ If you are a theme author and would like to have your theme added to our support
 If you find any issues with your particula theme not playing nice with the templates please let us know so that we can do our best
 to accommodate you.
 
-** Installation **
+== Installation ==
 * These instructions assumes you already have a WordPress site and the Elementor plugin installed and activated.
 
 1. Install using the WordPress built-in Plugin installer, or Extract the zip file and drop the contents in the `wp-content/plugins/` directory of your WordPress installation.
@@ -48,7 +48,7 @@ to accommodate you.
 4. Press the 'Edit with Elementor' button.
 5. Now you can drag and drop widgets from the left panel onto the content area, as well as add new sections and columns that make up the page structure which will be render in a full width layout.
 
-** Frequently Asked Questions **
+== Frequently Asked Questions ==
 
 **With this plugin do I still need Elementor and a theme?**
 
@@ -60,7 +60,7 @@ Yes and No. The short answer is yes, you will be able to select the included tem
 **Why a blank template?**
 Ever wanted to build Landing pages, sales pages or display specific pages without the clutter and distruction of header items, sidebar widgets and footer items? Now you can.
 
-** Changelog **
+== Changelog ==
 
 = 1.0.1 =
 * Added support for Edge, Experon and Genesis
