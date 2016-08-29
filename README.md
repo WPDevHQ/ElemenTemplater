@@ -1,11 +1,11 @@
 # Elementor Page Templater
-**Contributors:** [WPDevHQ] (http://www.wpdevhq.com)
-**Tags:** elementor, pagebuilder, actions, storefront, twentysixteen, genesis
-**Requires at least:** 4.4
-**Tested up to:** 4.6
-**Stable tag:** 1.0.1
-**License:** GPLv3
-**License URI:** https://www.gnu.org/licenses/gpl-3.0.html
+**Contributors:** [WPDevHQ] (http://www.wpdevhq.com)  
+**Tags:** elementor, pagebuilder, actions, storefront, twentysixteen, genesis  
+**Requires at least:** 4.4  
+**Tested up to:** 4.6  
+**Stable tag:** 1.0.1  
+**License:** GPLv3  
+**License URI:** https://www.gnu.org/licenses/gpl-3.0.html  
 
 A helper plugin for users of [Elementor Pagebuilder] (https://github.com/pojome/elementor)
 
