@@ -1,11 +1,14 @@
 <?php
 /*
-Plugin Name: Elementor Templater
-Plugin URI: http://www.wpdevhq.com/
-Version: 1.0.0
-Author: WPDevHQ
-Author URI: http://www.wpdevhq.com/
-*/
+ * Plugin Name: Elementor Templater: ElemenTemplator
+ * Plugin URI: http://www.wpdevhq.com/plugins/elementor-templator
+ * Description: A helper plugin for users of [Elementor Pagebuilder] (https://wordpress.org/plugins/elementor/).
+ * Version: 1.0.0
+ * Author: WPDevHQ
+ * Author URI: http://www.wpdevhq.com/
+ * Requires at least:   4.4
+ * Tested up to:        4.6
+ */
 
 /* Do not access this file directly */
 if ( ! defined( 'WPINC' ) ) { die; }

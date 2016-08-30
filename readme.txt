@@ -3,7 +3,7 @@ Contributors: WPDevHQ
 Tags: elementor, pagebuilder, page builder, page builder template, page builder templates, actions, storefront, twentysixteen, genesis, template builder, builder templates
 Requires at least: 4.0
 Tested up to: 4.6
-Stable tag: 1.0.1
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,10 +59,5 @@ Ever wanted to build Landing pages, sales pages or display specific pages withou
 
 == Changelog ==
 
-= 1.0.1 =
-* Added support for Edge, Experon and Genesis
-
 = 1.0.0 =
 * Initial release.
-
-Copyright: WPDevHQ http://www.wpdevhq.com
