@@ -1,7 +1,11 @@
 <?php
     /* Support for the Twenty Sixteen theme */
-    $style = '
-	    .page-template-builder-fullwidth .full-width,
+    $style = '	    
+		.page-template-builder-fullwidth .elementor,
+        .page-template-builder-fullwidth-std .elementor {
+	        overflow: hidden;
+        }
+		.page-template-builder-fullwidth .full-width,
         .page-template-builder-fullwidth-std .full-width {
 	        width: 100%;
         }
@@ -32,10 +36,10 @@
 	            margin-left: auto;
 	        }
         }
-        @media screen and (min-width: 44.375em) {
-	        .page-template-builder-fullwidth .entry-content,
+        @media screen and (min-width: 44.375em) {	        
+			.page-template-builder-fullwidth .entry-content,
             .page-template-builder-fullwidth-std .entry-content {
-	            margin-right: auto;
+	            margin-right: auto;;
 	        }
         }
 	';
