@@ -2,7 +2,7 @@
 
 
 **Contributors:** [WPDevHQ] (http://www.wpdevhq.com)   
-**Tags:** elementor, pagebuilder, actions, storefront, twentysixteen, genesis   
+**Tags:** elementor, pagebuilder, page builder, page builder template, page builder templates, actions, storefront, twentysixteen, genesis, template builder, builder templates   
 **Requires at least:** 4.4  
 **Tested up to:** 4.6  
 **Stable tag:** 1.0.1  
