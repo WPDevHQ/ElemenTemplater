@@ -18,17 +18,17 @@ Initial version only contains 2 templates
 	
 == Supported Themes ==
 The following themes are currently supported out of the box - if your desired theme is not list you may need to add some custom css.
-- [Actions] (https://wordpress.org/themes/actions/) - by WPDevHQ
-- [Edge] (https://wordpress.org/themes/edge/) - By themefreesia
-- [Experon] (https://wordpress.org/themes/experon/) - ThinkUpThemes
-- [Genesis] (http://my.studiopress.com/themes/genesis/) - By StudioPress
-- [Storefront] (https://wordpress.org/themes/storefront/) - by WooThemes/Automattic
-- [TwentyFourteen] (https://wordpress.org/themes/twentyfourteen/) - by WordPress.org
-- [TwentyFifteen] (https://wordpress.org/themes/twentyfifteen/) - by WordPress.org
-- [TwentySixteen] (https://wordpress.org/themes/twentysixteen/) - by WordPress.org
-- [TwentyThirteen] (https://wordpress.org/themes/twentythirteen/) - by WordPress.org
-- [Vantage] (https://wordpress.org/themes/vantage/) - by Greg Priday
-- [Virtue] (https://wordpress.org/themes/virtue/) - by Kadence Themes
+* [Actions](https://wordpress.org/themes/actions/) - by WPDevHQ
+* [Edge](https://wordpress.org/themes/edge/) - By themefreesia
+* [Experon](https://wordpress.org/themes/experon/) - ThinkUpThemes
+* [Genesis](http://my.studiopress.com/themes/genesis/) - By StudioPress
+* [Storefront](https://wordpress.org/themes/storefront/) - by WooThemes/Automattic
+* [TwentyFourteen](https://wordpress.org/themes/twentyfourteen/) - by WordPress.org
+* [TwentyFifteen](https://wordpress.org/themes/twentyfifteen/) - by WordPress.org
+* [TwentySixteen](https://wordpress.org/themes/twentysixteen/) - by WordPress.org
+* [TwentyThirteen](https://wordpress.org/themes/twentythirteen/) - by WordPress.org
+* [Vantage](https://wordpress.org/themes/vantage/) - by Greg Priday
+* [Virtue](https://wordpress.org/themes/virtue/) - by Kadence Themes
 
 If you are a theme author and would like to have your theme added to our supported list please provide details and we'll see what we can do.
 
@@ -56,6 +56,12 @@ Yes and No. The short answer is yes, you will be able to select the included tem
 
 **Why a blank template?**
 Ever wanted to build Landing pages, sales pages or display specific pages without the clutter and distruction of header items, sidebar widgets and footer items? Now you can.
+
+== Screenshots ==
+
+1. Fullwidth with Header and Footer
+
+2. Fullwidth no Header no Footer
 
 == Changelog ==
 
