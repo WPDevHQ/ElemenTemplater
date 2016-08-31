@@ -7,10 +7,10 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A helper plugin for users of [Elementor Pagebuilder] (https://wordpress.org/plugins/elementor/)
+A helper plugin for users of Elementor Page Builder
 
 == Description ==
-This plugin does one and one thing only - adds page templates (plus css) to any theme for use with the Elementor Page Builder
+This plugin does one and one thing only - adds page templates (plus css) to any theme for use with the [Elementor Page Builder](https://wordpress.org/plugins/elementor/)
 
 Initial version only contains 2 templates
 - Template 1: Full width with header and footer : Builder Fullwidth Standard
