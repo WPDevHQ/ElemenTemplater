@@ -18,7 +18,7 @@ class ElemenTemplater {
         public static function get_instance() {
 
                 if( null == self::$instance ) {
-                        self::$instance = new ElemenTemplater();
+                    self::$instance = new ElemenTemplater();
                 } 
 
                 return self::$instance;
@@ -38,14 +38,21 @@ class ElemenTemplater {
 				
 				add_action( 'init', array( $this, 'elementemplater_load_plugin_textdomain' ) );
 				
+				add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_styles' ), 998 );
 				add_action( 'wp_enqueue_scripts', array( $this, 'elementemplater_styles' ), 999 );
+				add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ), 9999 );
 
                 // Add a filter to the attributes metabox to inject template into the cache.
-                add_filter(
-					'page_attributes_dropdown_pages_args',
-					array( $this, 'register_project_templates' ) 
-				);
-
+				if ( version_compare( floatval($GLOBALS['wp_version']), '4.7', '<' ) ) { // 4.6.1 and older
+            		add_filter(
+                		'page_attributes_dropdown_pages_args',
+                		array( $this, 'register_project_templates' )
+            		);
+				} else { // Add a filter to the wp 4.7 version attributes metabox
+            		add_filter(
+                		'theme_page_templates', array( $this, 'add_new_template' )
+            		);
+				}
 
                 // Add a filter to the save post to inject out template into the page cache
                 add_filter(
@@ -61,14 +68,21 @@ class ElemenTemplater {
 					array( $this, 'view_project_template') 
 				);
 
-
                 // Add your templates to this array.
-                $this->templates = array(
+				$this->templates = array(
                     'templates/builder-fullwidth.php'     => __( 'Elementor Fullwidth Blank', 'elementemplater' ),
 					'templates/builder-fullwidth-std.php' => __( 'Elementor Fullwidth Standard', 'elementemplater' ),
-                );
-				
+                );				
         }
+		
+		/**
+     	 * Adds our template to the page dropdown for v4.7+
+     	 *
+     	 */
+    	public function add_new_template( $posts_templates ) {
+        	$posts_templates = array_merge( $posts_templates, $this->templates );
+        	return $posts_templates;
+    	}
 
         /**
          * Adds our template to the pages cache in order to trick WordPress
@@ -131,6 +145,24 @@ class ElemenTemplater {
                 return $template;
 
         }
+		
+		/**
+	     * Enqueue Custom CSS - theme agnostic.
+	     * @since   1.0.1
+	     * @return  void
+	     */
+	    public function enqueue_styles() {
+			if ( is_page_template( 'templates/builder-fullwidth.php' ) ) {
+				wp_register_style( 'builder-fullwidth-style', plugins_url( 'assets/custom.css', __FILE__ ) );
+			    wp_enqueue_style( 'builder-fullwidth-style' );
+			}
+		}
+		
+		 public function enqueue_scripts() {
+			if ( is_page_template( 'templates/builder-fullwidth.php' ) ) {
+				wp_enqueue_script( 'builder-fullwidth-js', plugins_url( 'assets/custom.js', __FILE__ ), array( 'jquery' ), '', true );
+			}
+		}
 		
 		/**
 	     * Enqueue CSS for active theme.

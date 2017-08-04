@@ -1,7 +1,7 @@
 <?php
     /* Support for the Twenty Fourteen theme */
     $style = '
-	    .page-template-builder-fullwidth-std .site {
+	    .page-template-builder-fullwidth-std .elementor-page .site {
             max-width: 100%;
 			overflow: hidden;
         }

@@ -9,7 +9,7 @@
             max-width: 100%;
 			margin: 0;
         }
-        .page-template-builder-fullwidth .elementor	{
+        .page-template-builder-fullwidth .elementor-page	{
             overflow: hidden;
         }
         body.page-template-builder-fullwidth-std:before {

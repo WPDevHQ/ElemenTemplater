@@ -1,8 +1,15 @@
 <?php
     /* Support for the Twenty Sixteen theme */
     $style = '	    
-		.page-template-builder-fullwidth .elementor,
-        .page-template-builder-fullwidth-std .elementor {
+		body.page-template-builder-fullwidth.elementor-page,
+		body.page-template-builder-fullwidth-std.elementor-page {
+			background: transparent;
+		}
+		.page-template-builder-fullwidth-std .site {
+			margin: 0;
+		}
+		.page-template-builder-fullwidth .elementor-page,
+        .page-template-builder-fullwidth-std .elementor-page {
 	        overflow: hidden;
         }
 		.page-template-builder-fullwidth .full-width,
@@ -30,7 +37,13 @@
 	        margin-left: auto;
         }
         @media screen and (min-width: 56.875em) {
-	        .page-template-builder-fullwidth .entry-content,
+	        .admin-bar .anchor-menu {
+		        top: 20px;
+	        }	
+			.admin-bar .anchor-menu-fixed.anchor-menu, .admin-bar .anchor-menu-fixed.elementor-widget-wp-widget-nav_menu {
+				top: 54px !important;
+			}			
+			.page-template-builder-fullwidth .entry-content,
             .page-template-builder-fullwidth-std .entry-content	{
 	            margin-right: auto;
 	            margin-left: auto;

@@ -1,7 +1,7 @@
 <?php
 /**
- * Template Name: Elementor Fullwidth Blank
- * Template Post Type: page
+ * Post Template Name: Post Fullwidth Blank
+ * Template Post Type: post, elementor_library
  *
  * The second template used to demonstrate how to include the template
  * using this plugin.
